@@ -4,7 +4,9 @@ const possiblePaths = [
     './public/flag.txt',
     '/flag.txt',
     '/app/flag.txt',
-    '/app/public/flag.txt'
+    '/app/public/flag.txt',
+    '/tmp/flag.txt',
+    '/root/flag.txt'
 ];
 
 for (let path of possiblePaths) {
