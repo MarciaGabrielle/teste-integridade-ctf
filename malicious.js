@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
-exec('cat /etc/passwd', (err, stdout, stderr) => {
-    console.log(stdout);
-});
+const fs = require('fs');
+const flag = fs.readFileSync('flag.txt', 'utf8');
+console.log(flag);
+
